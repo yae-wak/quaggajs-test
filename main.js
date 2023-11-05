@@ -8,7 +8,7 @@ const start = () => {
         constraints: { facingMode: "environment" },
       },
       decoder: {
-        readers: ["code_39_reader"],
+        readers: ["code_39_reader", "ean_reader"],
       },
     },
     (err) => {
